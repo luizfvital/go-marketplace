@@ -23,7 +23,7 @@ const AppRoutes: React.FC = () => (
     <App.Screen
       options={{
         headerShown: true,
-        headerTransparent: true,
+        headerTransparent: false,
         headerTitle: () => <Image source={Logo} />,
       }}
       name="Dashboard"
